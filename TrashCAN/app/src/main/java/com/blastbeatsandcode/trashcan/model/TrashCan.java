@@ -9,7 +9,7 @@ public class TrashCan {
     private UVCBulb _bulb;
     private Lid _lid;
 
-    TrashCan() {
+    public TrashCan() {
         // TODO: Fill in this constructor based on real-world application
         _led = new StatusLED();
         _fan = new FanBlade();

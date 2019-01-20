@@ -17,4 +17,18 @@ public class PiConn {
         _connectionInfo = "";
         _client = HttpClients.createDefault();
     }
+
+    public boolean sendRequest() {
+        // TODO: Implement this
+        return false;
+    }
+
+    public void setRequest(String req) {
+        // TODO: Implement this
+    }
+
+    private boolean connectToServer() {
+        // TODO: Implement this
+        return false;
+    }
 }
