@@ -7,7 +7,7 @@ import com.blastbeatsandcode.trashcan.model.states.StatusEnum;
 public class Lid implements Component {
     LidStatus _currentStatus;
 
-    Lid() {
+    public Lid() {
         _currentStatus = LidStatus.LID_CLOSED;
     }
 

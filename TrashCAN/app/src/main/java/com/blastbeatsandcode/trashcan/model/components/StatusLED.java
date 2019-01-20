@@ -7,7 +7,7 @@ import com.blastbeatsandcode.trashcan.model.states.StatusEnum;
 public class StatusLED implements Component {
     private LEDStatus _currentStatus;
 
-    StatusLED() {
+    public StatusLED() {
         _currentStatus = LEDStatus.LED_OFF;
     }
 

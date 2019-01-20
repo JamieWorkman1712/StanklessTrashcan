@@ -7,7 +7,7 @@ import com.blastbeatsandcode.trashcan.model.states.StatusEnum;
 public class FanBlade implements Component {
     private FanStatus _currentStatus;
 
-    FanBlade() {
+    public FanBlade() {
         _currentStatus = FanStatus.FAN_OFF;
     }
 

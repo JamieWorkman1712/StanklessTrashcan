@@ -7,7 +7,7 @@ import com.blastbeatsandcode.trashcan.model.states.StatusEnum;
 public class UVCBulb implements Component {
     private BulbStatus _currentStatus;
 
-    UVCBulb() {
+    public UVCBulb() {
         _currentStatus = BulbStatus.BULB_OFF;
     }
 
