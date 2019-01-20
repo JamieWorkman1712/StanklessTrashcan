@@ -5,13 +5,12 @@ import android.os.Bundle;
 
 import com.blastbeatsandcode.trashcan.R;
 
-// MainActivity is the initial view for the application
-public class MainActivity extends AppCompatActivity implements TrashCanView {
+public class GroceryListview extends AppCompatActivity implements TrashCanView {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_grocery_listview);
     }
 
     @Override
